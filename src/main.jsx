@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import { ChakraProvider, extendTheme, CSSReset, Global } from "@chakra-ui/react";
-import { css } from "@emotion/react";
+import { ChakraProvider, extendTheme, CSSReset } from "@chakra-ui/react";
+import { Global, css } from "@emotion/react";
 
 const colors = {
   brand: {
